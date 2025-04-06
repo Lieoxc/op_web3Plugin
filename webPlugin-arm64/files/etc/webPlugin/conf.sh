@@ -14,6 +14,7 @@ uci set openclash.@config_subscribe[0].sub_convert='0'
 
 #启用openclash
 uci set openclash.config.enable='1'
+uci set openclash.config.en_mode='redir-host'
 uci set openclash.config.config_path='/etc/openclash/config/openwrt_clash.yaml'
 
 #配置保存
